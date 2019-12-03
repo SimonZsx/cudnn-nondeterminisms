@@ -2,8 +2,8 @@
   
 [reduce_sum tensorflow floating point addition is not associative](https://jkschin.com/2017/06/30/non-determinism.html)
 
-two sigma workaround 
-https://www.twosigma.com/insights/article/a-workaround-for-non-determinism-in-tensorflow/
+[two sigma workaround]
+(https://www.twosigma.com/insights/article/a-workaround-for-non-determinism-in-tensorflow/)
 
 
 CUDNN  
