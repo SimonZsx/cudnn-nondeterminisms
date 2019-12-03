@@ -11,7 +11,7 @@
 
 
 
-###CUDNN Algorithms 
+### CUDNN Algorithms 
 
 [Workaround] https://github.com/tensorflow/tensorflow/issues/12871
 
@@ -22,13 +22,14 @@ Page 21
 
 http://hpc.pku.edu.cn/docs/20170830182053891231.pdf
 
+CUDNN autotune
+https://blog.csdn.net/jiangbo1017/article/details/79351775
 
-``
+
 CUDNN_CONVOLUTION_BWD_FILTER_ALGO_0 (non-deterministic)
-``
-``
+
 CUDNN_CONVOLUTION_BWD_FILTER_ALGO_1
-``
+
 CUDNN_CONVOLUTION_BWD_FILTER_ALGO_FFT
 
 CUDNN_CONVOLUTION_BWD_FILTER_ALGO_3 (non-deterministic)
@@ -36,9 +37,9 @@ CUDNN_CONVOLUTION_BWD_FILTER_ALGO_3 (non-deterministic)
 CUDNN_CONVOLUTION_BWD_FILTER_ALGO_WINOGRAD (not implemented)
 
 CUDNN_CONVOLUTION_BWD_FILTER_ALGO_WINOGRAD_NONFUSED
-``
+
 CUDNN_CONVOLUTION_BWD_FILTER_ALGO_FFT_TILING
-``
+
 
 ### Tensorflow training non-determinism
 
