@@ -41,6 +41,10 @@ CUDNN_CONVOLUTION_BWD_FILTER_ALGO_WINOGRAD_NONFUSED
 CUDNN_CONVOLUTION_BWD_FILTER_ALGO_FFT_TILING
 
 
+### Deconvolution Layer 
+
+https://datascience.stackexchange.com/questions/6107/what-are-deconvolutional-layers
+
 ### Tensorflow training non-determinism
 
 [reduce_sum tensorflow floating point addition is not associative](https://jkschin.com/2017/06/30/non-determinism.html)
