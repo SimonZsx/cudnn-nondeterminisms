@@ -1,7 +1,7 @@
 # cudnn-nondeterminisms
 
 
-###NVIDIA Deep Learning Non-determinism
+### NVIDIA Deep Learning Non-determinism
 
 [github](https://github.com/NVIDIA/tensorflow-determinism)
 
@@ -25,9 +25,10 @@ http://hpc.pku.edu.cn/docs/20170830182053891231.pdf
 
 ``
 CUDNN_CONVOLUTION_BWD_FILTER_ALGO_0 (non-deterministic)
-
+``
+``
 CUDNN_CONVOLUTION_BWD_FILTER_ALGO_1
-
+``
 CUDNN_CONVOLUTION_BWD_FILTER_ALGO_FFT
 
 CUDNN_CONVOLUTION_BWD_FILTER_ALGO_3 (non-deterministic)
@@ -35,11 +36,11 @@ CUDNN_CONVOLUTION_BWD_FILTER_ALGO_3 (non-deterministic)
 CUDNN_CONVOLUTION_BWD_FILTER_ALGO_WINOGRAD (not implemented)
 
 CUDNN_CONVOLUTION_BWD_FILTER_ALGO_WINOGRAD_NONFUSED
-
+``
 CUDNN_CONVOLUTION_BWD_FILTER_ALGO_FFT_TILING
 ``
 
-###Tensorflow training non-determinism
+### Tensorflow training non-determinism
 
 [reduce_sum tensorflow floating point addition is not associative](https://jkschin.com/2017/06/30/non-determinism.html)
 
